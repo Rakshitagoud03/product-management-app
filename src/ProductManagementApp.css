@@ -1,0 +1,70 @@
+/* ProductManagementApp.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #1a0505;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    border: 2px solid #050505;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    background-color: #fdfefe;
+    color: #070707;
+    border: 1px solid #0c0c0c;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bolder;
+    border-width:0.3vh;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #64aaf0;
+    border-color: #121212;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    border-color: #ccc;
+  }
+  button + button {       /*space btwn 2 buttons*/
+    margin-top: 20px;
+  }
+  
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #040404;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #4caf50;
+    border-width: 0.4vh;
+  }
+  div {
+    margin-bottom: 10px;
+  }
+  
+  input[name="price"] {
+    margin-right: 5px;
+  }
+
+  
+  input[type="text"].search {
+    margin-bottom: 10px;
+  }
